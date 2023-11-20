@@ -1,3 +1,5 @@
+package laba2
+
 import java.nio.file.Files
 import java.nio.file.Paths
 
@@ -15,7 +17,7 @@ fun calculateSumOfNumbersInFilesSingle() {
 
 fun main() {
     val time = System.currentTimeMillis()
-    //generateFileSingle()
     calculateSumOfNumbersInFilesSingle()
     println((System.currentTimeMillis() - time).toString() + " millis")
 }
+//396912 1927 millis

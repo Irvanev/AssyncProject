@@ -1,3 +1,5 @@
+package laba2
+
 import java.io.File
 import kotlin.random.Random
 
@@ -5,7 +7,7 @@ val numberPages = 30
 val numberRows = 1000000
 val sumArray = IntArray(numberPages)
 
-fun generateFileSingle() {
+fun main() {
     for (i in 1..numberPages) {
         val fileName = "file$i.txt"
         val file = File(fileName)
